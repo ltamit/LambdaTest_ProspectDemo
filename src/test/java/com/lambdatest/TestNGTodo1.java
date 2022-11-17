@@ -40,6 +40,7 @@ public class TestNGTodo1 {
         caps.setCapability("systemLog", true);
         caps.setCapability("terminal", true);
         caps.setCapability("video", true);
+        caps.setCapability("visual", true);
 
 
         String[] Tags = new String[] { "Feature", "Falcon", "Severe" };
