@@ -30,9 +30,10 @@ public class Android1 extends AppUploadAndroid{
                 caps.setCapability("build", "Android");
                 caps.setCapability("name", "Single Test");
                 caps.setCapability("app", "android_appurl");
+                
 
                 AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
-                                new URL("https://" + userName + ":" + accessKey + "@beta-hub.lambdatest.com/wd/hub"),
+                                new URL("https://" + userName + ":" + accessKey + "@mobile-hub.lambdatest.com/wd/hub"),
                                 caps);
                 WebDriverWait wait = new WebDriverWait(driver, 10);
                 AndroidElement searchElement = (AndroidElement) wait
