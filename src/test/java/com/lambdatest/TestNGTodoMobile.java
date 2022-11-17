@@ -28,7 +28,7 @@ public class TestNGTodoMobile {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("deviceName", "Google Pixel 4a");
         caps.setCapability("platformName", "android");
-        capabilities.setCapability("platformVersion", "12");
+        caps.setCapability("platformVersion", "12");
         caps.setCapability("build", "TestNG With Java");
         caps.setCapability("name", m.getName() + this.getClass().getName());
         caps.setCapability("plugin", "git-testng");
